@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "18.3.1",
     "react-native": "0.75.0-rc.6",
-    "@callstack/react-native-visionos": "0.75.0-rc.1"
+    "@callstack/react-native-visionos": "0.75.0-rc.2"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -25,7 +25,7 @@
     "@react-native-community/cli": "14.0.0-alpha.11",
     "@react-native-community/cli-platform-android": "14.0.0-alpha.11",
     "@react-native-community/cli-platform-ios": "14.0.0-alpha.11",
-    "@callstack/out-of-tree-platforms": "0.75.0-rc.1",
+    "@callstack/out-of-tree-platforms": "0.75.0-rc.2",
     "@types/react": "^18.2.6",
     "@types/react-test-renderer": "^18.0.0",
     "babel-jest": "^29.6.3",
