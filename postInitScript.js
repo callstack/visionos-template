@@ -1,13 +1,17 @@
 #!/usr/bin/env node
 
-const chalk = require("chalk");
 const path = require("path");
+
+// ANSI escape codes for colors and formatting
+const reset = "\x1b[0m";
+const cyan = "\x1b[36m";
+const bold = "\x1b[1m";
 
 function printInitScript() {
   const projectDir = path.resolve();
 
   const instructions = `
-    ${chalk.cyan(`Run instructions for ${chalk.bold("visionOS")}`)}:
+    ${cyan}Run instructions for ${bold}visionOS${reset}${cyan}:${reset}
     • cd "${projectDir}/visionos"
 
     • Install Cocoapods
