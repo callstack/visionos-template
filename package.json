@@ -10,7 +10,8 @@
   "type": "commonjs",
   "files": [
     "template/*",
-    "template.config.js"
+    "template.config.js",
+    "postInitScript.js"
   ],
   "dependencies": {},
   "devDependencies": {},

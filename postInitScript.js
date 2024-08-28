@@ -3,7 +3,7 @@
 const chalk = require("chalk");
 const path = require("path");
 
-function printInitScript(projectName) {
+function printInitScript() {
   const projectDir = path.resolve();
 
   const instructions = `
@@ -18,9 +18,7 @@ function printInitScript(projectName) {
     • npx react-native run-visionos
     `;
 
-  console.log(`
-  ${instructions}
-  `);
+  console.log(instructions);
 }
 
 printInitScript();
